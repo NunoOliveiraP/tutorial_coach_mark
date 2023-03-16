@@ -266,7 +266,7 @@ class AnimatedStaticFocusLightState extends AnimatedFocusLightState {
                       ? () => _tapHandler(targetTap: true)
 
                       /// Essential for collecting [TapDownDetails]. Do not make [null]
-                      : () {},
+                      : null,
                   child: Container(
                     color: Colors.transparent,
                     width: width,
